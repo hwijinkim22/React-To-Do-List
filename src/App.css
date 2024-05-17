@@ -1,0 +1,121 @@
+
+
+.date {
+  margin: 0;
+  padding-top: 15px;
+  width: 100%;
+  height: 150px;
+  font-size: 30px;
+  color: rgb(31, 170, 244);
+  text-align: center;
+  box-sizing: border-box;
+  border: 3px groove  rgb(74, 213, 167);
+  border-radius: 30px;
+}
+
+.ment {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.article h2 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(74, 213, 167);
+  border: 2px solid rgb(74, 213, 167);
+  border-radius: 30px;
+}
+
+.article ul {
+  list-style-type: none;
+  padding: 0;  
+}
+
+.article li {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 27%;
+  margin: auto;
+  border-radius: 2px;
+}
+
+.inputTitle {
+  padding: 15px;
+  text-align: center;
+}
+
+.inputDetail {
+  padding: 15px;
+  text-align: center;
+}
+
+.input-box, .input {
+  padding: 10px;
+  width: 40%;
+  text-align: center;
+}
+
+.btn {
+  padding: 2%;
+  width: 18%;
+  background-color: paleturquoise;
+  color: green;
+}
+
+.status1 {
+  font-size: 30px;
+  color: rgb(190, 35, 35);
+  font-weight: 700;
+  border-top: 1px solid black;
+}
+
+.status2 {
+  font-size: 30px;
+  color: rgb(44, 206, 44);
+  font-weight: 700;
+
+}
+
+.card {
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 33, 245);
+  width: 21%;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin: 2%;
+}
+
+.card h3 {
+  margin-top: -10px;
+}
+.card p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.deleteBtn {
+  float: inline-end;
+  background-color: rgb(112, 112, 112);
+}
+
+.toggle {
+  display: block;
+  background-color: rgb(65, 223, 167);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
